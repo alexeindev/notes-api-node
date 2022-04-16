@@ -1,0 +1,30 @@
+{
+  "name": "phonebook-api-practice",
+  "version": "1.0.0",
+  "description": "A simple phonebook API ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexeindev/phonebook-api-practice.git"
+  },
+  "keywords": [
+    "API"
+  ],
+  "author": "Alexeindev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexeindev/phonebook-api-practice/issues"
+  },
+  "homepage": "https://github.com/alexeindev/phonebook-api-practice#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
